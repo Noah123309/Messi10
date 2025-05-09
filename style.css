@@ -7,7 +7,6 @@ body{
 
 .navBar{
     display: flex;
-    list-style: none;
 }
 
 .container {
@@ -19,23 +18,31 @@ body{
     position: relative;
 }
 
-.container > div > img{
+.bildeBox{
     height: 300px;
     width: 300px;
+    object-fit: contain;
 }
 
-.container > div > h1{
+.tall{
+    position: absolute;
+    z-index: 0;
     font-size: 8rem;
-    color: dark grey;
+    color: #444;
 }
 
-.container > div > h2{
-    font-size: 3.5rem;
+.textBox{
+    position: relative;
 }
 
-.container > div > p{
-    max-width: 30vw;
+.textBox > span{
+    position: relative;
+    z-index: 1;
+    line-height: 1.4;
+}
+
+.textBox > p{
     text-align: justify;
-    line-height: 1.25;
-    font-size: medium;
+    z-index: 1.3;
+
 }
