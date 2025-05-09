@@ -5,8 +5,9 @@ body{
     font-style: italic;
 }
 
-.navbar{
+.navBar{
     display: flex;
+    list-style: none;
 }
 
 .container {
@@ -15,6 +16,7 @@ body{
     align-items: center;
     color: #fff;
     height: 110vh;
+    position: relative;
 }
 
 .container > div > img{
@@ -23,11 +25,12 @@ body{
 }
 
 .container > div > h1{
-    font-size: xx-large;
+    font-size: 8rem;
+    color: dark grey;
 }
 
 .container > div > h2{
-    font-size: 8rem;
+    font-size: 3.5rem;
 }
 
 .container > div > p{
