@@ -21,3 +21,18 @@ body{
     height: 300px;
     width: 300px;
 }
+
+.container > div > h1{
+    font-size: xx-large;
+}
+
+.container > div > h2{
+    font-size: 8rem;
+}
+
+.container > div > p{
+    max-width: 30vw;
+    text-align: justify;
+    line-height: 1.25;
+    font-size: medium;
+}
