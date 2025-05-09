@@ -1,6 +1,5 @@
 body{
     background: linear-gradient(45deg, #0d255e, #bb1b1b);
-    color: #fff;
     height: 110vh;
     font-family: "DM Serif Text", serif;
     font-weight: 400;
@@ -10,7 +9,8 @@ body{
 .container {
     display: flex;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
+    color: #fff;
 }
 
 .container > div > img{
